@@ -1,4 +1,4 @@
-package com.marcelfitzner;
+package com.rockpaperscissor.game;
 
 public enum GameItem {
     UNDEFINED, ROCK, PAPER, SCISSOR;
@@ -11,7 +11,7 @@ public enum GameItem {
     }
     private GameItem beats;
 
-    GameItem beats() {
+    public GameItem beats() {
         return beats;
     }
 }

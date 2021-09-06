@@ -1,8 +1,6 @@
-package com.marcelfitzner;
+package com.rockpaperscissor;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import com.rockpaperscissor.game.GameManager;
 
 /**
  * This is a simple implementation of the game 'Rock, Paper, Scissor'
@@ -24,7 +22,7 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) {
-        Game theRockScissorPaperGame = new Game();
-        theRockScissorPaperGame.play();
+        GameManager rockScissorPaperGame = new GameManager();
+        rockScissorPaperGame.createNewGame();
     }
 }

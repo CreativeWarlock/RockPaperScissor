@@ -1,8 +1,8 @@
-package com.marcelfitzner;
+package com.rockpaperscissor.game;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-import static com.marcelfitzner.GameItem.*;
+import static com.rockpaperscissor.game.GameItem.*;
 
 public class Bot {
 
@@ -17,7 +17,7 @@ public class Bot {
     }
 
     public GameItem getChoice() {
-        // just random. No specific bot intelligence.
+        // just random choice. No specific bot intelligence.
         int botChoice = ThreadLocalRandom
                 .current().nextInt(1, 4);
 
